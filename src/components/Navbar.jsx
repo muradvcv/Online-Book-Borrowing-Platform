@@ -19,7 +19,7 @@ const Navbar = () => {
               tabIndex="-1"
               className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
               <li><Navlink href="/">Home</Navlink></li>
-              <li><Navlink href="/all-tiles">All Books</Navlink></li>
+              <li><Navlink href="/all-books">All Books</Navlink></li>
               <li><Navlink href="/my-profile">My Profile</Navlink></li>
             </ul>
           </div>
@@ -28,14 +28,14 @@ const Navbar = () => {
               <Image src={Logo} alt="Logo" className="w-10 h-auto" />
             </Link>
             <h1 className="text-md md:text-xl whitespace-nowrap">
-             Book Borrowing
+              Book Haven
             </h1>
           </div>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
             <li><Navlink href="/">Home</Navlink></li>
-            <li><Navlink href="/all-tiles">All tiles</Navlink></li>
+            <li><Navlink href="/all-books">All Books</Navlink></li>
             <li><Navlink href="/my-profile">My Profile</Navlink></li>
           </ul>
         </div>
