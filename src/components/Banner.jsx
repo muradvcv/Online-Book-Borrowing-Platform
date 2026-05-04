@@ -41,7 +41,7 @@ const Banner = () => {
 
           {/* Button */}
           <Link
-            href="/all-tiles"
+            href="/all-books"
             className="inline-flex items-center gap-2 bg-[#0B1F4D] hover:bg-[#16306d] duration-300 px-8 py-4 rounded-xl text-white font-semibold shadow-lg"
           >
             Browse Now <FaArrowRightLong />

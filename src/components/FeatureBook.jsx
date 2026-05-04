@@ -7,8 +7,6 @@ import Marquee from 'react-fast-marquee';
 const FeatureBook = async() => {
   const data=await getData();
   const topBook=data.slice(0,4)
-
-  console.log(data);
   
   return (
     <div className=''>
