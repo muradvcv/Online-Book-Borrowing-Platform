@@ -23,7 +23,7 @@ const AllBooks = async () => {
   return (
     <div className='w-10/12 mx-auto py-8 min-h-screen'>
       {/* search bar */}
-      <SarchWrapper tiles={tiles} />
+      <SarchWrapper books={books} />
 
 
       {/* all tiles */}
